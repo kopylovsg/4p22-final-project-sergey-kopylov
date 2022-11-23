@@ -1,0 +1,9 @@
+.catalog-filter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: var(--border-radius);
+  height: 96px;
+  background: var(--c-light);
+}
+

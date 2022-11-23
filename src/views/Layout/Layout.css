@@ -1,16 +1,17 @@
-.app {
+.layout {
   display: flex;
   flex-direction: column;
+  gap: 30px;
   min-height: 100vh;
 
 }
 
-app__header,
-app__footer {
+.layout__header,
+.layout__footer {
   flex-shrink: 0;
 
 }
 
-.app__content {
+.layout__content {
   flex-grow: 1;
 }

@@ -2,7 +2,9 @@ import React from "react";
 import './Button.css'
 
 
-  const Button = () => {
+  const Button = ({ theme='dark', onClick = () => {}, }) => {
+
+
 
     return (
       <div>
