@@ -6,7 +6,6 @@ import filterpng from "../../components/images/filterpng.png";
 import {defaultCategory} from "../Catalog/Catalog";
 
 
-
 const CatalogFilter = (props) => {
   const {
     products,
@@ -16,18 +15,15 @@ const CatalogFilter = (props) => {
     activeCategory,
   } = props;
 
-
   const [searchQuery, setSearchQuery] = useState('');
   const onInputChange = ({ target }) => {
     setSearchQuery(target.value);
-    // console.log(searchQuery)
+
   }
 
   const onCategoryButtonClick = (categoryName) => {
     setActiveCategory(categoryName);
   }
-
- // console.log(onCategoryButtonClick)
 
   const filter = () => {
     const newFilteredProducts = products.filter(({ title, category }) => {
@@ -43,11 +39,9 @@ const CatalogFilter = (props) => {
     setFilteredProducts(newFilteredProducts);
   }
 
-
   useEffect(() => {
     filter()
   }, [searchQuery, activeCategory]);
-
 
   return (
     <div className="catalog-filter">

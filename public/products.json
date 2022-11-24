@@ -4,8 +4,8 @@
     "title": "120 ГБ SATA накопитель A-Data SU650",
     "price": 900,
     "description": "120-гигабайтный SSD-накопитель A-Data SU650 [ASU650SS-120GT-R] – модель от одного из мировых лидеров в области производства памяти разных типов.Накопитель A-Data SU650 [ASU650SS-120GT-R] управляется контроллером Silicon Motion SM2258XT",
-    "category": "Solid State Drives",
-    "image": "./4p22-final-project-sergey-kopylov/A-DataSU650.jpg",
+    "category": "SSD",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/A-DataSU650.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -16,8 +16,8 @@
     "title": "60 ГБ SATA накопитель Netac N535S",
     "price": 997,
     "description": "SSD-накопитель Netac N535S станет отличным выбором для домашних и офисных систем и обеспечит высокое быстродействие как отдельных приложений, так и всей операционной системы в целом. В основе данной модели используются первоклассные чипы памяти NAND с объемной структурой и производительный микрокомпьютер Silicon Motion SM2258XT.",
-    "category": "Solid State Drives",
-    "image": "./4p22-final-project-sergey-kopylov/NetacN535S.jpg",
+    "category": "SSD",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/NetacN535S.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -28,8 +28,8 @@
     "title": "120 ГБ SATA накопитель Patriot Burst Elite",
     "price": 999,
     "description": "Накопитель Patriot Burst Elite [PBE120GS25SSDR] увеличит скорость запуска приложений и производительность системы в целом. Данная модель характеризуется емкостью 120 ГБ и востребованным интерфейсом подключения SATA III. Скоростные характеристики в режиме последовательного чтения и записи данных достигают показателей 450 Мбайт/сек и 320 Мбайт/сек соответственно.",
-    "category": "Solid State Drives",
-    "image": "./4p22-final-project-sergey-kopylov/PatriotBurstElite.jpg",
+    "category": "SSD",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/PatriotBurstElite.jpg",
     "rating": {
       "rate": 4.7,
       "count": 500
@@ -40,8 +40,8 @@
     "title": "120 ГБ SATA накопитель Silicon Power Slim S55",
     "price": 1100,
     "description": "SiliconPower Slim S55 является уникальным устройством, толщина которого составляет всего 7 мм. Благодаря компактным размерам и небольшому весу это устройство вы сможете взять с собой не только на работу, но и в дальнее путешествие.",
-    "category": "Solid State Drives",
-    "image": "./4p22-final-project-sergey-kopylov/SiliconPowerSlimS55.jpg",
+    "category": "SSD",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/SiliconPowerSlimS55.jpg",
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -53,7 +53,7 @@
     "price": 1940,
     "description": "Оперативная память A-Data XPG Gammix D10 является моделью из геймерской линейки и позиционируется производителем как надежное решение для игрового компьютера. Данный модуль стандарта DDR4 отличается объемом 8 ГБ и функционированием на частоте 3200 МГц. Разгонный потенциал модуля A-Data XPG Gammix D10 дополнен поддержкой профиля XMP. Панель теплоотвода выделяется оригинальным зазубренным дизайном и благодаря применению алюминия гарантирует поддержание сбалансированного температурного режима.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/A-DataXPGGammixD10.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/A-DataXPGGammixD10.jpg",
     "rating": {
       "rate": 4.6,
       "count": 400
@@ -65,7 +65,7 @@
     "price": 810,
     "description": "AMD Radeon R3 Value Series с пропускной способностью PC10600 поддерживает частоту 1333 МГц. Особенность оперативной памяти в том, что она поддерживает тайминги 9-9-9-24, что способствует уменьшению временной задержки сигнала. А благодаря этому и повышается быстродействие системы.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/AMDRadeonR3ValueSeries.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/AMDRadeonR3ValueSeries.jpg",
     "rating": {
       "rate": 3.9,
       "count": 70
@@ -77,7 +77,7 @@
     "price": 1090,
     "description": "Оперативная память AMD Radeon R5 Entertainment Series [R5S34G1601U1S] имеет объем, составляющий 4 ГБ. Перед вами – игровое устройство, рассчитанное на использование в составе системных блоков, которые комплектуются модулями памяти DDR3. Уровень производительности модуля достаточен для обработки больших массивов данных в интенсивном режиме. Пропускная способность памяти составляет 12800 МБ/с. Используется тактовая частота 1600 МГц. Модуль может функционировать и на других (800, 1066 и 1333 МГц) частотах. Память характеризуется таймингами 11-11-11-28.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/AMDRadeonR5.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/AMDRadeonR5.jpg",
     "rating": {
       "rate": 3,
       "count": 400
@@ -89,7 +89,7 @@
     "price": 1930,
     "description": "Оперативная память AMD Radeon R5 Entertainment Series [R5S38G1601U1K] использует тактовую частоту 1600 МГц. Поддерживаются и другие режимы работы. Минимально допустимой частотой является частота 800 МГц. Пропускная способность памяти равна 12800 МБ/с. Модули соответствуют таймингам 11-11-11-28.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/AMDRadeonR5EntertainmentSeries.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/AMDRadeonR5EntertainmentSeries.jpg",
     "rating": {
       "rate": 1.9,
       "count": 100
@@ -101,7 +101,7 @@
     "price": 897,
     "description": "Оперативная память Patriot Signature Line – универсальное решение для повышения производительности аппаратной платформы в компьютерах разного назначения и серверных станциях. Модуль стандарта DDR4 отличается совместимостью с платформами Intel и AMD. Он функционирует на частоте 2666 МГц и помогает добиться повышения быстродействия системы в режимах круглосуточных нагрузок. Patriot Signature Line тщательно протестирована на совместимость с другими комплектующими и рассчитана на длительный срок службы.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/PatriotSignatureLine.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/PatriotSignatureLine.jpg",
     "rating": {
       "rate": 3.3,
       "count": 203
@@ -113,7 +113,7 @@
     "price": 2098,
     "description": "Оперативная память Patriot Viper 4 Steel [PVS48G360C8] представляет собой решение объемом 8 ГБ, выполненное по стандарту DDR4. Благодаря своей емкости, а также высоким рабочим показателям данная модель может стать отличным выбором для использования в игровых и рабочих системах, обеспечивая высокий уровень быстродействия и позволяя комфортно решать практически любые задачи. Кроме того, данный модуль отличается высокой стабильностью работы и устойчивостью к сбоям даже при значительных нагрузках, что обусловлено применением передовых технологий и первоклассных компонентов в конструкции.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/PatriotViper4Steel.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/PatriotViper4Steel.jpg",
     "rating": {
       "rate": 2.9,
       "count": 470
@@ -125,7 +125,7 @@
     "price": 1090,
     "description": "Модули памяти серии Viper Elite II от Patriot являются улучшенным обновлением существующей серии Viper Elite. Память Viper Elite II оснащена красными алюминиевыми радиаторами, которые эффективно обеспечивают отвод тепла, для достижения максимальной производительности. Память выполнена по технологии DDR4 и идеально подходит для игр, создания контента и работы с объемными данными. Доступны единичные модули Viper Elite II, а также комплекты из двух модулей, с широким выбором объёмов и частот. Наши комплекты Viper Elite II тщательно протестированы на совместимость. Память демонстрирует высочайшее качество работы и совместима со всеми платформами Intel и AMD.",
     "category": "RAM",
-    "image": "./4p22-final-project-sergey-kopylov/PatriotViperEliteII.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/PatriotViperEliteII.jpg",
     "rating": {
       "rate": 4.8,
       "count": 319
@@ -137,7 +137,7 @@
     "price": 1790,
     "description": "Процессор AMD A6-9500 OEM оборудован сокетом AM4 и рассчитан на установку в домашнюю станцию средней мощности или функциональный компьютер офисного, учебного назначения. Обладая базовой тактовой частотой на уровне 3500 МГц, эта двухъядерная модель работает при разгоне по технологии Turbo Core на частоте 3800 МГц. Представленный в комплектации OEM процессор оснащен встроенным графическим ядром GPU Radeon R5, благодаря которому он уверенно справляется с обработкой графических данных.",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/AMDA6-9500OEM.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/AMDA6-9500OEM.jpg",
     "rating": {
       "rate": 4.8,
       "count": 400
@@ -149,7 +149,7 @@
     "price": 1840,
     "description": "Процессор AMD PRO A6-8570 OEM под сокет AM4 рассчитан на установку в домашнюю станцию средней мощности или функциональный компьютер офисного, учебного назначения. Обладая базовой тактовой частотой на уровне 3500 МГц, эта двухъядерная модель работает при разгоне по технологии Turbo Core на частоте 3800 МГц.",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/AMDPROA6-8570.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/AMDPROA6-8570.jpg",
     "rating": {
       "rate": 2.9,
       "count": 250
@@ -161,7 +161,7 @@
     "price": 2590,
     "description": "LGA 1200, 2 x 3.5 ГГц, L2 - 0.5 МБ, L3 - 4 МБ, 2хDDR4-2666 МГц, Intel UHD Graphics 610, TDP 58 Вт.",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/CeleronG5905.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/CeleronG5905.jpg",
     "rating": {
       "rate": 2.2,
       "count": 140
@@ -173,7 +173,7 @@
     "price": 44450,
     "description": "AM5, 8 x 4.5 ГГц, L2 - 8 МБ, L3 - 32 МБ, 2хDDR5-5200 МГц, AMD Radeon Graphics, TDP 105 Вт.",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/AMDRyzen7-7700X.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/AMDRyzen7-7700X.jpg",
     "rating": {
       "rate": 2.6,
       "count": 235
@@ -185,7 +185,7 @@
     "price": 3100,
     "description": "LGA 1700, 2 x 3.4 ГГц, L2 - 2.5 МБ, L3 - 4 МБ, 2хDDR4, DDR5-4800 МГц, Intel UHD Graphics 710, TDP 46 Вт",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/CeleronG6900.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/CeleronG6900.jpg",
     "rating": {
       "rate": 2.9,
       "count": 340
@@ -197,7 +197,7 @@
     "price": 13750,
     "description": "LGA 1200, 6 x 2.6 ГГц, L2 - 3 МБ, L3 - 12 МБ, 2хDDR4-3200 МГц, Intel UHD Graphics 730, TDP 65 Вт.",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/Corei5-11400.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/Corei5-11400.jpg",
     "rating": {
       "rate": 3.8,
       "count": 679
@@ -209,7 +209,7 @@
     "price": 23950,
     "description": "LGA 1200, 8 x 2.5 ГГц, L2 - 4 МБ, L3 - 16 МБ, 2хDDR4-3200 МГц, Intel UHD Graphics 750, TDP 65 Вт",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/Corei7-11700.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/Corei7-11700.jpg",
     "rating": {
       "rate": 4.7,
       "count": 130
@@ -221,7 +221,7 @@
     "price": 3790,
     "description": "LGA 1151, 2 x 3.3 ГГц, L2 - 0.5 МБ, L3 - 3 МБ, 2хDDR4, DDR3L-2133 МГц, Intel HD Graphics 510, TDP 54 Вт",
     "category": "Processors",
-    "image": "./4p22-final-project-sergey-kopylov/PentiumG4400.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/PentiumG4400.jpg",
     "rating": {
       "rate": 4.5,
       "count": 146
@@ -233,7 +233,7 @@
     "price": 4990,
     "description": "Материнская плата ASRock H510M-HDV обладает свойствами производительной и надежной основы для сборки мощного компьютера. При этом, она характеризуется компактными размерами. В оснащение данной платы входят 2 слота DIMM, 4 разъема SATA, по одному слоту PCI-E x16 и PCI-E x1. Предусмотрена возможность установки процессоров Intel под сокет LGA 1200.",
     "category": "motherboards",
-    "image": "./4p22-final-project-sergey-kopylov/ASROCH510M-HDV.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/ASROCH510M-HDV.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -245,7 +245,7 @@
     "price": 3950,
     "description": "Материнская плата Biostar A68MHE представляет собой компактное и функциональное решение для создания домашних и офисных систем малого формата. Данная модель соответствует типоразмеру Micro-ATX, основана на чипсете AMD A68H и использует сокет FM2+, предназначенный для процессоров AMD. Данная модель также поддерживает дискретные графические ускорители — для их установки предусмотрена 1 линия PCI-E 3.0 x16. Максимальный объем ОЗУ может достигать 32 ГБ. Для установки доступно 2 слота DIMM. Помимо этого платформа обладает 4 портами SATA III, что позволит вам создать вместительное файловое хранилище.",
     "category": "motherboards",
-    "image": "./4p22-final-project-sergey-kopylov/BiostarA68MHE.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/BiostarA68MHE.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -257,7 +257,7 @@
     "price": 2950,
     "description": "Материнская плата Esonic G31CHL3 изготовлена в форм-факторе Micro-ATX и ориентирована на апгрейд ПК с использованием системных компонентов предыдущих поколений. Выполненная на чипсете Intel G31 модель поддерживает установку процессора Intel в исполнении LGA 775. К двум ее слотам для монтажа оперативной памяти, рассчитанным на установку ОЗУ DDR2 с частотой 533-800 МГц, можно подключить до 16 ГБ памяти.",
     "category": "motherboards",
-    "image": "./4p22-final-project-sergey-kopylov/G31CHL3.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/G31CHL3.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -269,7 +269,7 @@
     "price": 2999,
     "description": "Материнская плата Esonic G41CPL3 предназначена для создания компактных домашних и офисных систем. Данная модель выполнена в форм-факторе Micro-ATX, благодаря чему возможно использование миниатюрного корпуса. Плата основана на первоклассных компонентах, что обеспечивает высокую надежность и отказоустойчивость. Материнская плата Esonic G41CPL3 использует в своей основе чипсет Intel G41. Установка процессора производится при помощи сокета LGA 775. Помимо этого модель поддерживает дискретную графику — для нее на плате предусмотрена 1 линия PCI-E x16. Объем оперативной памяти может достигать 8 ГБ, что обусловлено наличием 2 слотов формата DIMM. Дисковая подсистема может быть выполнена при помощи 4 разъемов SATA с пропускной способностью 3 Гбит/с.",
     "category": "motherboards",
-    "image": "./4p22-final-project-sergey-kopylov/G41CPL3.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/G41CPL3.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -281,7 +281,7 @@
     "price": 3450,
     "description": "Материнская плата GIGABYTE H310M H оптимальна для сборки компьютера офисного класса, применение которому можно будет найти и дома. Такой системный блок отлично подходит для удаленной работы, в том числе – в Интернете. Компьютер может быть компактным: плата соответствует форм-фактору Micro-ATX. Размеры устройства – 226x174 мм. Материнская плата GIGABYTE H310M H совместима с широчайшим образом распространенными процессорами Intel LGA 1151-v2. Максимальный объем памяти (32 ГБ) достаточен для решения большинства стандартных задач.",
     "category": "motherboards",
-    "image": "./4p22-final-project-sergey-kopylov/GIGABYTEH310MH.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/GIGABYTEH310MH.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -293,7 +293,7 @@
     "price": 4450,
     "description": "Разнообразные устройства PRO-серии помогают пользователям работать эффективно. В материнских платах PRO-серии сочетаются отличная функциональность и высокое качество изготовления – они идеально подходят для продуктивного труда. LGA 1200, Intel H510, 2xDDR4-2933 МГц, 1xPCI-Ex16, 1xM.2, Micro-ATX.",
     "category": "motherboards",
-    "image": "./4p22-final-project-sergey-kopylov/MSIPROH410M-B.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/MSIPROH410M-B.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -305,7 +305,7 @@
     "price": 890,
     "description": "350 Вт, 20 + 4 pin, 4 pin CPU, 3 SATA.",
     "category": "Power supplies",
-    "image": "./4p22-final-project-sergey-kopylov/ExeGateXP350.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/ExeGateXP350.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -317,7 +317,7 @@
     "price": 2150,
     "description": "600 Вт, EPS12V, 20 + 4 pin, 4 pin CPU, 3 SATA, 6 pin PCI-E.",
     "category": "Power supplies",
-    "image": "./4p22-final-project-sergey-kopylov/Winard600W.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/Winard600W.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -329,7 +329,7 @@
     "price": 2960,
     "description": "700 Вт, EPS12V, APFC, 20 + 4 pin, 4+4 pin CPU, 6 SATA, 6 pin, 6+2 pin PCI-E.",
     "category": "Power supplies",
-    "image": "./4p22-final-project-sergey-kopylov/XilenceRedWingsXN050.jpg",
+    "image": "./4p22-final-project-sergey-kopylov/imagesprod/XilenceRedWingsXN050.jpg",
     "rating": {
       "rate": 3.6,
       "count": 145

@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Layout from "./views/Layout/Layout";
 import HomePage from "./pages/HomePage";
 import BasketPage from "./pages/BasketPage";
-import FeedpackPage from "./pages/FeedpackPage";
+import FeedbackPage from "./pages/FeedbackPage";
 import ProductPage from "./pages/ProductPage";
 
 
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />}/>
           <Route path="/basket" element={<BasketPage />} />
-          <Route path="/feedbask" element={<FeedpackPage />} />
+          <Route path="/feedbaсk" element={<FeedbackPage />} />
           <Route path="/catalog/:id" element={<ProductPage />} />
         </Route>
       </Routes>

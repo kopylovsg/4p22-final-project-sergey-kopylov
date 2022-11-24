@@ -2,7 +2,7 @@
   --c-dark: #000000;
   --c-light: #FFFFFF;
 
-  --c-accrnt: #FF8F52;
+  --c-accent: #FF8F52;
 
   --c-grey: #F2F2F2;
   --c-grey-2: #D9D9D9;
@@ -15,7 +15,7 @@
 
   --base-font-family: 'Roboto', sans-serif;
   --base-font-weight: 400;
-  --base-font-size: 16px;
+  --base-font-size: 20px;
   --base-line-height: 1.5;
 
   --grid-wigth: 1200px;

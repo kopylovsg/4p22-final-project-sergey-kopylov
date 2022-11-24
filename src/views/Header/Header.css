@@ -1,3 +1,19 @@
 .header {
   background-color: var(--c-light);
 }
+
+.header__menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+.header__menu-link {
+  text-decoration: none;
+  color: var(--c-dark);
+}
+
+
+.is-active {
+  color: var(--c-accrnt);
+}
