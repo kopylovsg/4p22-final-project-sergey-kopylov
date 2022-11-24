@@ -22,7 +22,7 @@ const Catalog = () => {
   }
 
   const fetchProducts = () => {
-    fetch(`4p22-final-project-sergey-kopylov/products.json`)
+    fetch('products.json')
       .then((response) => response.json())
       .then((response) => {
         const newProducts = response.map((product) => ({

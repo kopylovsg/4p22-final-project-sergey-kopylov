@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router";
 import Product from "../views/Product/Product";
 
+
 const ProductPage = () => {
   const { id } = useParams()
 
@@ -17,7 +18,7 @@ const ProductPage = () => {
   } = productInfo
 
   const fetchProductInfo = () => {
-    fetch(`4p22-final-project-sergey-kopylov/products.json`)
+    fetch('products.json')
       .then((response) => response.json())
       .then((responseData) => {
 
