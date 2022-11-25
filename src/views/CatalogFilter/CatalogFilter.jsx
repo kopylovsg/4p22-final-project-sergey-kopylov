@@ -28,12 +28,12 @@ const CatalogFilter = (props) => {
   const filter = () => {
     const newFilteredProducts = products.filter(({ title, category }) => {
       const isCategoryTheSame = category === activeCategory;
-      const isDefaultCategory = activeCategory === defaultCategory;
+      const isActiveCategoryDefault = activeCategory === defaultCategory;
       const titleFormatted = title.toLowerCase();
       const searchQueryFormatted = searchQuery.toLowerCase();
       const isNameIncludesSearchQuery = titleFormatted.includes(searchQueryFormatted);
 
-      return (isCategoryTheSame || isDefaultCategory) && isNameIncludesSearchQuery
+      return (isCategoryTheSame || isActiveCategoryDefault) && isNameIncludesSearchQuery
     })
 
     setFilteredProducts(newFilteredProducts);
@@ -76,14 +76,6 @@ const CatalogFilter = (props) => {
         value={searchQuery}
         onChange={onInputChange}
         />
-      <div className="catalog-filter__cheep">
-        <img width="22" height="20" src={sortr} alt="sorting"/>
-        <span>Cheep</span>
-      </div>
-
-      <div className="catalog-filter__categories">
-
-      </div>
     </div>
 
   );

@@ -9,8 +9,6 @@ const ProductPage = () => {
   const [productInfo, setProductInfo] = useState({});
   const [isLoading, setIsLoading] = useState(false);
 
-  console.log(productInfo)
-
   const {
     title,
     image,
@@ -44,10 +42,11 @@ const ProductPage = () => {
 
     <Product
       title={title}
-      imgage={image}
+      image={image}
       price={price}
       description={description}
       />
+
   )
 
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import cart from "../../components/images/cart.png";
+import './Product.css'
 
 const Product = (props) => {
   const {
@@ -10,22 +11,23 @@ const Product = (props) => {
     description,
   } = props
 
+  console.log(price)
   return (
     <div className="product">
 
       <img
         className="product__image"
-        src={image}
+        src={`/${image}`}
         alt={title}
-        width="400"
+        width="440"
         height="326"
         loading="lazy"/>
       <h1 className="product__title">{title}</h1>
       <div className="product__description">{description}</div>
       <div className="product__info">
-        <div className="product__price">{price} &#8381;</div>
+        <div className="product__price">{price.toFixed(2)} &#8381;</div>
         <button className="product__price-bottom" type="button">
-          <img width="22" height="20" src={cart} alt="cart"/>
+          <img width="22" height="22" src={cart} alt="cart"/>
         </button>
       </div>
     </div>

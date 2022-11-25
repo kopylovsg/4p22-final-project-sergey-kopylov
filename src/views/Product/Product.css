@@ -1,0 +1,27 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.product__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.product__info-bottom {
+  cursor: pointer;
+}
+
+
+.product__price-bottom {
+  border-color: var(--c-grey);
+  width: 26px;
+  height: 26px;
+
+
+}
