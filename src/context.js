@@ -1,5 +1,5 @@
-const defaultContextValue = {
-  basketTotalPrice: 0,
-  basketTotalAmount: 0,
-  basketItems: [],
-}
+import {createContext} from "react";
+
+const AppContext = createContext({});
+
+export default AppContext;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import cart from "../../components/images/cart.png";
 import './Product.css'
 
@@ -11,7 +11,10 @@ const Product = (props) => {
     description,
   } = props
 
-  console.log(price)
+  useEffect(() => {
+
+  });
+
   return (
     <div className="product">
 

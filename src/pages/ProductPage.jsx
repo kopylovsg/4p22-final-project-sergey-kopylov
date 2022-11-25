@@ -7,9 +7,9 @@ const ProductPage = () => {
   const { id } = useParams()
 
   const [productInfo, setProductInfo] = useState({});
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const {
+   const {
     title,
     image,
     price,
@@ -24,7 +24,7 @@ const ProductPage = () => {
         const product = responseData.find(item  => String(item.id) === id)
 
         setProductInfo(product);
-
+        setIsLoading(false);
       })
   }
 
@@ -33,9 +33,7 @@ const ProductPage = () => {
   }, [])
 
   if (isLoading) {
-    return <div>
-
-    </div>
+    return <div> Загрузка..... </div>
   }
 
   return (
@@ -46,7 +44,6 @@ const ProductPage = () => {
       price={price}
       description={description}
       />
-
   )
 
 };
