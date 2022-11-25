@@ -7,3 +7,6 @@
   background: var(--c-light);
 }
 
+.catalog-filter__category-button.is-active {
+  background: var(--c-accent);
+}

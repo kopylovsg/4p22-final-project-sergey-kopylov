@@ -7,26 +7,25 @@ const ProductPage = () => {
   const { id } = useParams()
 
   const [productInfo, setProductInfo] = useState({});
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
+
+  console.log(productInfo)
 
   const {
-
     title,
-    imgSrc,
+    image,
     price,
     description,
   } = productInfo
 
   const fetchProductInfo = () => {
-    fetch('products.json')
+    fetch('/products.json')
       .then((response) => response.json())
       .then((responseData) => {
 
-        console.debug('responseData:', responseData)
+        const product = responseData.find(item  => String(item.id) === id)
 
-        // const product = responseData.find(({ id }) => String(id) === id)
-
-        // setProductInfo(product);
+        setProductInfo(product);
 
       })
   }
@@ -36,20 +35,20 @@ const ProductPage = () => {
   }, [])
 
   if (isLoading) {
-    return <div>Загрузка....</div>
+    return <div>
+
+    </div>
   }
 
-  return
+  return (
 
-
-    // <Product
-    //   id={id}
-    //   title={title}
-    //   imgSrc={imgSrc}
-    //   price={`${price}  &#8381;`}
-    //   description={description}
-    //   />
-
+    <Product
+      title={title}
+      imgage={image}
+      price={price}
+      description={description}
+      />
+  )
 
 };
 

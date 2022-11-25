@@ -5,6 +5,7 @@ const Input = (props) => {
   const {
     className = '',
     placeholder,
+    title,
     value,
     onChange,
   } = props
@@ -12,6 +13,8 @@ const Input = (props) => {
   return (
     <input
       className={`${className} input`}
+      placeholder={placeholder}
+
       placeholder={placeholder}
       value={value}
       onChange={onChange}

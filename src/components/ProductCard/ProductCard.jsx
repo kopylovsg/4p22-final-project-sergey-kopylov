@@ -33,8 +33,8 @@ const ProductCard = (props) => {
       </Link>
       <Link className="product-card__title" to={href}>{title}</Link>
       <div className="product-card__description" title={description}>{description}</div>
-      <div className="product-card__price">
-        <div className="card-price">{price.toFixed(2)} &#8381;</div>
+      <div className="product-card__info">
+        <div className="product-card__price">{price.toFixed(2)} &#8381;</div>
         <div className="product-card__price-bottom" onClick={onClic}>
           <img width="22" height="20" src={cart} alt="cart"/>
         </div>

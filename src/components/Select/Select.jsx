@@ -1,9 +1,17 @@
 import React from 'react';
 import './Select.css'
 
-const Select = () => {
+const Select = (props) => {
+  const {
+    className = '',
+    name,
+    options,
+  } = props
+
   return (
-    <div>
+    <div className={`${className} select`}>
+      <select
+      name={name}/>
 
     </div>
   );

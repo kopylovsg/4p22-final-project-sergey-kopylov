@@ -1,11 +1,20 @@
 import React from 'react';
 import './Checkbox.css'
 
-const Checkbox = () => {
-  return (
-    <div>
+const Checkbox = (props) => {
+  const {
+    className = '',
+    isChecked,
 
-    </div>
+  }
+
+
+
+
+  return (
+    <label className={`${className}`}>
+
+    </label>
   );
 };
 
