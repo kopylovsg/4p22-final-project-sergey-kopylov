@@ -8,33 +8,31 @@ const BasketPage = () => {
     setBasketItems,
   } = useContext(AppContext);
 
+
   const totalAmount = basketItems.reduce((total, {amount}) => total += amount, 0);
 
   const [products, setProducts] = useState([]);
 
+
    const fetchProducts = () => {
     fetch('/products.json')
       .then((response) => response.json())
-      .then((responseData) => {
-        const allProducts = responseData;
-        const newProducts = [];
+      .then(products => {
 
-        console.log(responseData)
+        const productsInBasket = (basketItems || []).reduce((result, basketItem) => {
+          const product = products.find(({id}) => id === basketItem.id);
 
-        allProducts.forEach(({product}) => {
-          const productInBasket = basketItems.find(({ id }) => id === product.productId)
-         console.log(productInBasket)
-          const  { amount } = productInBasket
-
-          if (productInBasket) {
-            newProducts.push({
+          if (product) {
+            result.push({
               ...product,
-              amount,
-            })
+              amount: basketItem.amount
+            });
           }
 
-        })
-        setProducts(newProducts)
+          return result;
+        }, []);
+
+        setProducts(productsInBasket);
       })
   }
 
@@ -45,7 +43,13 @@ const BasketPage = () => {
   return (
     <div>
        КОРЗИНА
-      {/*<div>Total price: {basketTotalPrice.toFixed(2)} &#8381;</div>*/}
+      {(products || []).map(({title, amount, price, id}) => {
+        return <div key={id} style={{displey: "flex"}}>
+          <h2>{title}</h2>
+          <div>Price: {amount} x {price}</div>
+          <div>Total:{amount*price}</div>
+        </div>;
+      })}
       <div>Total amount: {totalAmount}</div>
     </div>
   );

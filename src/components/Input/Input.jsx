@@ -6,19 +6,36 @@ const Input = (props) => {
     className = '',
     placeholder,
     title,
+    name,
+    id = name,
+    label,
+    isLabelHidden = true,
+    type = 'text',
     value,
     onChange,
-  } = props
+  } = props;
+
+  const isTextArea = type === 'textarea';
+
+  const Component = isTextArea ? 'textarea' : 'input'
 
   return (
-    <input
-      className={`${className} input`}
-      placeholder={placeholder}
-
-      placeholder={placeholder}
-      value={value}
-      onChange={onChange}
-    />
+    <>
+      <label
+        className={`${isLabelHidden ? 'visually-hidden' : ''}`}
+        htmlFor={name}
+      >
+        {label}
+      </label>
+      <Component
+        className={`${className} input`}
+        name ={name}
+        type={type}
+        value={value}
+        placeholder={placeholder}
+        onChange={onChange}
+      />
+    </>
   );
 };
 
