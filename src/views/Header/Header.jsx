@@ -14,9 +14,9 @@ const defaultMenuItems = [
   },
   {
     href: '/feedbaсk',
-    label: 'feedback'
-  }
-]
+    label: 'Feedbaсk'
+  },
+];
 
 const Header = (props) => {
   const {

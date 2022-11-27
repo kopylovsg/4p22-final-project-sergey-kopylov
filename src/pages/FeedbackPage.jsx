@@ -4,7 +4,7 @@ import FeedbackForm from "../views/FeedbackForm/FeedbackForm";
 const FeedbackPage = () => {
   return (
     <div>
-      <h1>FEEDBACK:</h1>
+      <h1>Форма обратной связи:</h1>
       <FeedbackForm />
     </div>
   );

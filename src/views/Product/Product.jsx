@@ -4,7 +4,6 @@ import './Product.css'
 
 const Product = (props) => {
   const {
-
     title,
     image,
     price,
@@ -12,7 +11,6 @@ const Product = (props) => {
   } = props
 
   useEffect(() => {
-
   });
 
   return (
