@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />}/>
             <Route path="/basket" element={<BasketPage />} />
-            <Route path="/feedbaсk" element={<FeedbackPage />} />
+            <Route path="/feedback" element={<FeedbackPage />} />
             <Route path="/catalog/:id" element={<ProductPage />} />
           </Route>
         </Routes>

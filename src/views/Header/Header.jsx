@@ -13,8 +13,8 @@ const defaultMenuItems = [
     label: 'Basket'
   },
   {
-    href: '/feedbaсk',
-    label: 'Feedbaсk'
+    href: '/feedback',
+    label: 'Feedback'
   },
 ];
 
