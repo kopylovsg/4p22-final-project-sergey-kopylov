@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './CatalogFilter.css'
 import Input from "../../components/Input/Input";
-import sortr from "../../components/images/Sortr.png";
 import filterpng from "../../components/images/filterpng.png";
 import {defaultCategory} from "../Catalog/Catalog";
 

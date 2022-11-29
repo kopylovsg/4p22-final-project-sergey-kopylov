@@ -16,6 +16,7 @@ const App = () => {
       value={{
         basketItems,
         setBasketItems,
+
       }}>
       <BrowserRouter>
         <Routes>

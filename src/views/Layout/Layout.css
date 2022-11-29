@@ -9,6 +9,7 @@
 .layout__header,
 .layout__footer {
   flex-shrink: 0;
+  height: 80px;
 
 }
 

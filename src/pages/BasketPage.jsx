@@ -5,13 +5,14 @@ const BasketPage = () => {
 
   const {
     basketItems,
-    setBasketItems,
+
   } = useContext(AppContext);
 
 
   const totalAmount = basketItems.reduce((total, {amount}) => total += amount, 0);
 
   const [products, setProducts] = useState([]);
+
 
 
    const fetchProducts = () => {
@@ -43,11 +44,12 @@ const BasketPage = () => {
   return (
     <div>
        КОРЗИНА
-      {(products || []).map(({title, amount, price, id}) => {
-        return <div key={id} style={{displey: "flex"}}>
-          <h2>{title}</h2>
-          <div>Price: {amount} x {price}</div>
-          <div>Total:{amount*price}</div>
+      {(products || []).map(({title, image, amount, price, id}) => {
+         let amountPrice = (amount*price).toFixed(2);
+        return <div key={id} className="" style={{displey: "flex"}}>
+          <div>{title}</div>
+          <div>{amount} x {price.toFixed(2)}</div>
+          <div>Всего по наименованию: {amountPrice}</div>
         </div>;
       })}
       <div>Total amount: {totalAmount}</div>

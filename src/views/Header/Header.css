@@ -1,18 +1,29 @@
 .header {
   background-color: var(--c-light);
+
 }
 
+.header__menu {
+
+
+}
 .header__menu-list {
   display: flex;
   justify-content: center;
+  height: 100%;
+
   list-style: none;
   gap: 20px;
 }
 .header__menu-link {
+
   text-decoration: none;
   color: var(--c-dark);
 }
 
+.header__menu-item {
+
+}
 
 .header__menu-link.is-active {
   color: var(--c-accent);

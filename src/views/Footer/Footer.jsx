@@ -7,7 +7,7 @@ const Footer = (props) => {
   } = props
   return (
     <footer className={`${className} footer`}>
-      FOOTER
+      тут много информации о компании контакты. почта. телефоны.
     </footer>
   );
 };
