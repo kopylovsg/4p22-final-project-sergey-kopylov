@@ -57,12 +57,11 @@ const ProductCard = (props) => {
       <div className="product-card__description" title={description}>{description}</div>
       <div className="product-card__info">
         <div className="product-card__price">{price.toFixed(2)} &#8381;</div>
-        <button
+        <div
           className="product-card__price-bottom"
-          type="button"
           onClick={onBuyButtonClick}>
-          <img width="22" height="20" src={cart} alt="cart"/>
-        </button>
+          <img className="product-card__price-cart" width="22" height="20" src={cart} alt="cart"/>
+        </div>
       </div>
     </article>
   );

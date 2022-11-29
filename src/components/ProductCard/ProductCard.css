@@ -45,3 +45,8 @@
 .product-card__price-bottom {
   cursor: pointer;
 }
+
+.product-card__price-cart:active {
+  filter: invert(100%);
+  -webkit-filter:invert(100%);
+}

@@ -18,7 +18,11 @@
   --base-font-size: 20px;
   --base-line-height: 1.5;
 
+  --input-height: 35px;
+
   --grid-wigth: 1200px;
-  --grid-padding: 10px;
+  --grid-padding: 20px;
+
+  --base-transition-duration: 0.2s;
 
 }

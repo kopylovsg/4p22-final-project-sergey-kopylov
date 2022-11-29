@@ -1,12 +1,48 @@
 .input {
-  border-radius: var(--border-radius);
+  --paddingX: 28px;
+
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: var(--input-height);
+  padding-left: var(--paddingX);
+  padding-right: var(--paddingX);
   font-size: 18px;
-  width: 491px;
-  height: 56px;
-  border: 3px solid var(--c-grey);
-  padding-left: 10px;
+  color: var(--c-dark);
+  background-color: var(--c-light);
+  border: var(--border);
+  border-radius: var(--border-radius);
 }
+
+.input::placeholder {
+  color: var(--c-grey-3);
+}
+
+.input:hover {
+  border-color: var(--c-dark);
+}
+
+.input:focus {
+  border-color: var(--c-accent);
+  outline: none;
+}
+
+.input.is-invalid {
+  border-color: red;
+}
+
+textarea.input {
+  --paddingY: calc(var(--input-height) / 6);
+
+  min-height: 200px;
+  padding-top: var(--paddingY);
+  padding-bottom: var(--paddingY);
+  resize: none;
+}
+
+
 
 textarea {
   resize: none;
 }
+

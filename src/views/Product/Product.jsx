@@ -27,9 +27,7 @@ const Product = (props) => {
       <div className="product__description">{description}</div>
       <div className="product__info">
         <div className="product__price">{price.toFixed(2)} &#8381;</div>
-        <button className="product__price-bottom" type="button">
-          <img width="22" height="22" src={cart} alt="cart"/>
-        </button>
+
       </div>
     </div>
   );
