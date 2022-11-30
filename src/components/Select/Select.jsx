@@ -8,7 +8,7 @@ const Select = (props) => {
     label,
     id = name,
     value,
-    options =[],
+    options = [],
     onChange,
     isLabelHidden = false,
   } = props
@@ -47,7 +47,7 @@ const Select = (props) => {
         onChange={onChange}
 
       >
-        {options.map((value, label ) => (
+        {options.map(({ value, label }) => (
           <option
             key={value}
             value={value}

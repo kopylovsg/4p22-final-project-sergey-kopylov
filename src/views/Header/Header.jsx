@@ -6,15 +6,16 @@ import {NavLink} from "react-router-dom";
 const defaultMenuItems = [
   {
     href: '/',
-    label: 'Home'
+    label: 'Home',
+    reloadDocument: true,
   },
   {
     href: '/basket',
-    label: 'Basket'
+    label: 'Basket',
   },
   {
     href: '/feedback',
-    label: 'Feedback'
+    label: 'Feedback',
   },
 ];
 
@@ -28,13 +29,14 @@ const Header = (props) => {
     <header className={`${className} header`}>
       <nav className="header__menu">
         <ul className="header__menu-list">
-          {menuItems.map(({href, label}) => (
+          {menuItems.map(({href, label, reloadDocument}) => (
             <li className="header__menu-item" key={label}>
               <NavLink
                 className={({ isActive }) => {
                   return  `header__menu-link ${ isActive ? 'is-active' : ''}`
                 }}
                 to={href}
+                reloadDocument={reloadDocument}
               >
                 {label}
               </NavLink>

@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-
 import CatalogBody from "../CatalogBody/CatalogBody";
 import CatalogFilter from "../CatalogFilter/CatalogFilter";
 import './Catalog.css';

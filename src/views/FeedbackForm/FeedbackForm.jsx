@@ -145,7 +145,6 @@ const FeedbackForm = () => {
             {
               value: 'russia',
               label: 'Russia',
-
             },
             {
               value: 'usa',

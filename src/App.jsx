@@ -11,11 +11,60 @@ import AppContext from "./context";
 const App = () => {
   const [basketItems, setBasketItems] = useState([])
 
+  const addToBasket = (id) => {
+    const newBasketItems = { ...basketItems }
+    const isAlreadyExistInBasket = newBasketItems.hasOwnProperty(id)
+
+    isAlreadyExistInBasket
+      ? newBasketItems[id] += 1
+      : newBasketItems[id] = 1
+
+    setBasketItems(newBasketItems)
+  }
+
+
+  const changeBasketAmount = (id, isIncrease = true) => {
+    const newBasketItems = { ...basketItems }
+
+    if (isIncrease) {
+      newBasketItems[id]++
+    } else {
+      const currentAmount = newBasketItems[id]
+      if (currentAmount > 1) {
+        newBasketItems[id]--
+      }
+    }
+
+    setBasketItems(newBasketItems)
+  }
+
+
+  const increaseBasketItem = (id) => {
+    changeBasketAmount(id)
+  }
+
+  const decreaseBasketItem = (id) => {
+    changeBasketAmount(id, false)
+  }
+
+  const removeFromBasket = (id) => {
+    const newBasketItems = { ...basketItems }
+
+    delete newBasketItems[id]
+
+    setBasketItems(newBasketItems)
+  }
+
+
   return (
     <AppContext.Provider
       value={{
+        addToBasket,
         basketItems,
         setBasketItems,
+        removeFromBasket,
+        increaseBasketItem,
+        decreaseBasketItem,
 
       }}>
       <BrowserRouter>
@@ -29,7 +78,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
     </AppContext.Provider>
-  );
+    );
 };
 
 export default App;

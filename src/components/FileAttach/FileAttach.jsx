@@ -1,11 +1,14 @@
 import React from 'react';
 import './FileAttach.css'
 
-const FileAttach = () => {
-  return (
-    <div>
+const FileAttach = (props) => {
 
-    </div>
+  return (
+    <input className={`${className} file-attach`}
+    type="file"
+    />
+
+
   );
 };
 
