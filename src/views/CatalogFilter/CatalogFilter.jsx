@@ -66,7 +66,7 @@ const CatalogFilter = (props) => {
               {categoryName}
             </button>
           )
-        })};
+        })}
       </div>
 
       <Input

@@ -11,7 +11,6 @@ const BasketCard = ({ product }) => {
           decreaseBasketItem
   } =  useContext(AppContext);
 
-  console.log('removeFromBasket', removeFromBasket )
   const total = (price * amount).toFixed(2);
 
   return (
@@ -28,15 +27,15 @@ const BasketCard = ({ product }) => {
         <div className='basket-card__heading'>
           <div className='basket-card__title'>{title}</div>
           <div className='basket-card__category'>{category}</div>
-          <button
+          <span
             className='basket-card__remove-button'
             title='Remove product'
             aria-label='Remove product'
             onClick={() => removeFromBasket(id)}
           >
             <svg
-              width='15'
-              height='19'
+              width='30'
+              height='20'
               viewBox='0 0 15 19'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -46,7 +45,7 @@ const BasketCard = ({ product }) => {
                 fill='#838383'
               />
             </svg>
-          </button>
+          </span>
         </div>
         <div className='basket-card__price'>
           <div className='basket-card__price-summary'>

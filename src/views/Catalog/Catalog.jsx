@@ -31,6 +31,10 @@ const Catalog = () => {
     return Array.from(uniqueCategoryNames)
   }
 
+  useEffect(() => {
+    setPageNumber(1)
+  }, [activeCategory])
+
   const fetchProducts = () => {
     fetch('/products.json')
       .then((response) => response.json())
