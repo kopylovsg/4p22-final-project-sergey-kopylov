@@ -62,7 +62,6 @@ const Catalog = () => {
         activeCategory={activeCategory}
         setActiveCategory={setActiveCategory}
       />
-      {/*<CatalogBody className="catalog__body" products = {filteredProducts}/>*/}
       <CatalogBody className="catalog__body" products = {filteredVisibleProduct}/>
       <Pagination
         totalPages={totalPage}

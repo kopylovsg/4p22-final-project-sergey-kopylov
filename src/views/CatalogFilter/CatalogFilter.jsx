@@ -33,10 +33,10 @@ const CatalogFilter = (props) => {
       const isNameIncludesSearchQuery = titleFormatted.includes(searchQueryFormatted);
 
       return (isCategoryTheSame || isActiveCategoryDefault) && isNameIncludesSearchQuery
-    })
+    });
 
     setFilteredProducts(newFilteredProducts);
-  }
+  };
 
   useEffect(() => {
     filter()
@@ -66,7 +66,7 @@ const CatalogFilter = (props) => {
               {categoryName}
             </button>
           )
-        })}
+        })};
       </div>
 
       <Input

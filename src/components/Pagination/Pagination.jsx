@@ -26,7 +26,6 @@ const Pagination = (props) => {
 
   const items = [...Array(totalPages).keys()].map((number) => number + 1);
 
-
   return (
     <nav className={`${className} pagination`}>
       <ul className="pagination__list">

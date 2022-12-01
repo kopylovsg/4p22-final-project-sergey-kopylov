@@ -7,7 +7,7 @@ const Counter = (props) => {
     value,
     onDecrease,
     onIncrease,
-  } = props
+  } = props;
 
   return (
     <div className={`${className} counter`}>
@@ -29,7 +29,7 @@ const Counter = (props) => {
         +
       </button>
     </div>
-  )
-}
+  );
+};
 
 export default Counter
