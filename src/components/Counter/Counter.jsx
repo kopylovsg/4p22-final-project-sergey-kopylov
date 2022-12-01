@@ -24,7 +24,8 @@ const Counter = (props) => {
         className="counter__button counter__button--increase"
         type="button"
         title="Increase amount"
-        onClick={onIncrease}>
+        onClick={onIncrease}
+      >
         +
       </button>
     </div>

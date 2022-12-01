@@ -10,15 +10,9 @@ const CatalogBody = (props) => {
   return (
     <div className="catalog__body">
       <ul className="catalog-body__list">
-        {products.map(({ id, title, image, description, price}) =>(
-          <li className="catalog-body__item" key={id}>
-            <ProductCard
-              id={id}
-              title={title}
-              description={description}
-              onClic={() => console.log(title, price)}
-              imgSrc={image}
-              price={price}/>
+        {products.map(product => (
+          <li className="catalog-body__item" key={product.id}>
+            <ProductCard product={product}/>
           </li>
         ))}
       </ul>

@@ -5,48 +5,27 @@ import {Link} from "react-router-dom";
 import AppContext from "../../context";
 
 
-const ProductCard = (props) => {
+const ProductCard = ({product}) => {
   const  {
-
     id,
     title,
-    imgSrc,
+    image,
     price,
     description,
-
-  } = props;
+  } = product;
 
   const {
-
-    basketItems,
-    setBasketItems,
+    addToBasket,
   } = useContext(AppContext)
 
   const href = `/catalog/${id}`;
-  
-  const onBuyButtonClick =() => {
-    const existingBasketProductIndex = basketItems.findIndex((basketItem) => basketItem.id ===id);
-    const isExistInBasket = existingBasketProductIndex >= 0 && typeof existingBasketProductIndex === 'number';
-    let newBasketItems = [...basketItems]
-
-    if (isExistInBasket) {
-      newBasketItems[existingBasketProductIndex].amount ++
-    } else {
-      newBasketItems = [...newBasketItems, {
-        id,
-        amount: 1
-      }]
-    }
-
-    setBasketItems(newBasketItems);
-  }
 
   return (
     <article className="product-card">
       <Link className="product-card__image-wrapper" to={href}>
         <img
           className="product-cart__image"
-          src={imgSrc}
+          src={image}
           alt={title}
           width="250"
           height="230"
@@ -59,7 +38,7 @@ const ProductCard = (props) => {
         <div className="product-card__price">{price.toFixed(2)} &#8381;</div>
         <div
           className="product-card__price-bottom"
-          onClick={onBuyButtonClick}>
+          onClick={() => addToBasket(id)}>
           <img className="product-card__price-cart" width="22" height="20" src={cart} alt="cart"/>
         </div>
       </div>

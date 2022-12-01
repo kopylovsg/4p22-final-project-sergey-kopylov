@@ -1,0 +1,14 @@
+.pagination__list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.pagination__button.is-active {
+  background: var(--c-accent);
+}
+
+.pagination__button {
+  width: 35px;
+  height: 35px;
+}
