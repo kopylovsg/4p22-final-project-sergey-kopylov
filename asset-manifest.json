@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-sergey-kopylov/static/css/main.ea3739f5.css",
+    "main.css": "/4p22-final-project-sergey-kopylov/static/css/main.2a48ac0e.css",
     "main.js": "/4p22-final-project-sergey-kopylov/static/js/main.dbabb783.js",
     "static/media/logo.png": "/4p22-final-project-sergey-kopylov/static/media/logo.75667b7c73b4926f383f.png",
     "index.html": "/4p22-final-project-sergey-kopylov/index.html",
-    "main.ea3739f5.css.map": "/4p22-final-project-sergey-kopylov/static/css/main.ea3739f5.css.map",
+    "main.2a48ac0e.css.map": "/4p22-final-project-sergey-kopylov/static/css/main.2a48ac0e.css.map",
     "main.dbabb783.js.map": "/4p22-final-project-sergey-kopylov/static/js/main.dbabb783.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea3739f5.css",
+    "static/css/main.2a48ac0e.css",
     "static/js/main.dbabb783.js"
   ]
 }
